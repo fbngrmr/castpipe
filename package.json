@@ -1,0 +1,28 @@
+{
+  "name": "pipecast",
+  "version": "0.1.0",
+  "description": "Pipe video content to a Chromecast",
+  "main": "index.js",
+  "dependencies": {
+    "castv2-client": "^1.1.0"
+  },
+  "devDependencies": {
+    "castv2-client": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fbngrmr/pipecast.git"
+  },
+  "keywords": [
+    "chromecast"
+  ],
+  "author": "Fbn Grmr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fbngrmr/pipecast/issues"
+  },
+  "homepage": "https://github.com/fbngrmr/pipecast"
+}
