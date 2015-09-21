@@ -1,15 +1,15 @@
-#pipecast
+#castpipe
 
 Pipe video content to a Chromecast receiver. Alpha.
 
 ## Installation
 ```
-npm install pipecast
+npm install castpipe
 ```
 or:
 ```
-git clone git@github.com:fbngrmr/pipecast.git
-cd pipecast
+git clone git@github.com:fbngrmr/castpipe.git
+cd castpipe
 npm install
 ```
 
