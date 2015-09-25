@@ -2,8 +2,8 @@
 
 'use strict';
 
-var serveStdIn = require('./lib/serveStdIn.js');
-var launchChromecastStreamingApp = require('./lib/sendChromecast.js');
+var serveStdIn = require('../lib/serveStdIn.js');
+var launchChromecastStreamingApp = require('../lib/sendChromecast.js');
 var argv = require('yargs')
     .usage('Usage: $0 --localIP [--port]')
     .option( "localIP", {demand: true, describe: "IP address of computer", type: "string" } )
@@ -13,7 +13,7 @@ var argv = require('yargs')
 var server = argv.localIP;
 var port = argv.port || 1338;
 
-/*launchChromecastStreamingApp({
+launchChromecastStreamingApp({
   title: 'Pipecast',
   server: server,
   port: port
@@ -22,4 +22,4 @@ var port = argv.port || 1338;
     listenOn: server,
     port: port
   });
-});*/
+});
