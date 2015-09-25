@@ -1,12 +1,14 @@
 {
   "name": "castpipe",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pipe video content to a Chromecast",
-  "main": "index.js",
   "dependencies": {
     "castv2-client": "^1.1.0",
     "mdns": "^2.2.10",
     "yargs": "^3.25.0"
+  },
+  "bin": {
+    "pipecast": "./bin/castpipe.js"
   },
   "devDependencies": {
     "castv2-client": "^1.1.0"
